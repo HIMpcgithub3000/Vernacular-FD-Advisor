@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-deep: #0a0f0a;
+  --bg-card: #111811;
+  --bg-surface: #162016;
+  --bg-surface-2: #1c2a1c;
+  --accent-primary: #a3e635;
+  --accent-primary-dark: #84cc16;
+  --accent-blue: #4ade80;
+  --text-primary: #f0f5f0;
+  --text-secondary: #7a9a7a;
+  --text-muted: #3d5c3d;
+  --border: rgba(163, 230, 53, 0.08);
+  --border-active: rgba(163, 230, 53, 0.18);
+}
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    font-family: 'Inter', 'Noto Sans Devanagari', sans-serif;
+    background-color: var(--bg-deep);
+    background-image: radial-gradient(
+      600px circle at 50% -120px,
+      rgba(163, 230, 53, 0.04),
+      transparent 70%
+    );
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  input,
+  textarea {
+    font-family: inherit;
+  }
+
+  input[type='range'] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 8px;
+    border-radius: 9999px;
+    background: var(--bg-surface-2);
+    outline: none;
+  }
+
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--accent-primary);
+    cursor: pointer;
+    box-shadow: 0 0 0 2px rgba(10, 15, 10, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
+  input[type='range']::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--accent-primary);
+    cursor: pointer;
+    box-shadow: 0 0 0 2px rgba(10, 15, 10, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+@layer utilities {
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  .font-numbers {
+    font-family: 'DM Mono', monospace;
+  }
+
+  .font-vernacular {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+  }
+
+  .markdown-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #1e2d4a;
+  }
+
+  .markdown-table th {
+    background: #253352;
+    color: #8b9ec7;
+    font-size: 12px;
+    text-align: left;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    font-weight: 600;
+  }
+
+  .markdown-table td {
+    color: #f0f4ff;
+    font-size: 13px;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    vertical-align: top;
+  }
+}
