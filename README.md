@@ -54,7 +54,15 @@ FD Guru is a **chat-first, vernacular-first** Fixed Deposit advisor that:
 
 ## Screenshots
 
-| Landing Page | Chat (Hindi) | Voice Input | Booking Flow |
+| Landing Page <img width="1470" height="833" alt="image" src="https://github.com/user-attachments/assets/7bf28eb0-8571-45a6-8273-4bff8fd09ab5" />
+| Chat (Hindi) <img width="484" height="836" alt="image" src="https://github.com/user-attachments/assets/7ddee4bd-7097-469c-a0e3-1d7388ae8f80" />
+
+| Voice Input <img width="920" height="132" alt="image" src="https://github.com/user-attachments/assets/c6fb1795-18ea-4f9b-9796-debf34560468" />
+
+| Booking Flow <img width="462" height="406" alt="image" src="https://github.com/user-attachments/assets/71295ae5-3bd0-4343-9612-906b55f19275" />  <img width="439" height="454" alt="image" src="https://github.com/user-attachments/assets/6365867c-b175-4a80-b9bb-9c411c61e21f" />
+<img width="475" height="473" alt="image" src="https://github.com/user-attachments/assets/5191ff22-1ee1-4662-ad89-06c36c5ed977" />
+<img width="1470" height="834" alt="image" src="https://github.com/user-attachments/assets/06416ac4-ef17-43a2-ae06-dcbc8ee39e41" />
+|
 |---|---|---|---|
 | ![Landing](docs/landing.png) | ![Chat](docs/chat-hindi.png) | ![Voice](docs/voice.png) | ![Booking](docs/booking.png) |
 
